@@ -16,10 +16,10 @@ def menu():
 def checkInputLength(text, n):
     while len(text) <= n:
         print(f'Текст должен быть больше {n} символов\n')
-        text = input('Введите тескт: ')
+        text = input('Введите текст: ')
     else:
         return text
 
 
 def close():
-    print("The end!")
+    print("Работа с заметками завершена!")
